@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./css/product page.css" type="text/css" rel="stylesheet" />
+    <title>Adding product page</title>
+  </head>
+  <body>
+    <h1>Product Add</h1>
+    <div class="buttons">
+      <button class="save_button">Save</button>
+      <button class="cancel_button">Cancel</button>
+    </div>
+    <hr />
+    <form action="./php/products.php" method="post">
+      SKU<input type="text" id="sku" placeholder="Enter SKU" />
+      <br />
+      Name<input type="text" id="name" placeholder="Enter name" />
+      <br />
+      Price ($)<input type="text" id="price" placeholder="Enter price" />
+      <br />
+      <h3>Type Switcher</h3>
+      <select name="type_switcher" id="productType">
+        <option value="">Select a product from the list</option>
+        <option value="DVD" id="dvd">DVD</option>
+        <option value="Book" id="book">Book</option>
+        <option value="Furniture" id="furniture">Furniture</option>
+      </select>
+      <div id="input_container"></div>
+      <div id="description"></div>
+    </form>
+    <script src="./js/productpage.js"></script>
+  </body>
+</html>
