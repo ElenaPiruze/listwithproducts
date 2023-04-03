@@ -1,0 +1,25 @@
+fieldset {
+  display: inline;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 60px;
+  border: 3px solid black;
+  width: 7cm;
+  height: 4.2cm;
+  text-align: center;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.add_button,
+.mass_delete_button {
+  margin-left: 10px;
+}
+
+fieldset input[type="checkbox"] {
+  margin-right: 85%;
+}

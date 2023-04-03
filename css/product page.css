@@ -1,0 +1,56 @@
+.buttons {
+  text-align: right;
+}
+
+.save_button,
+.cancel_button {
+  margin-left: 10px;
+}
+
+#sku,
+#name,
+#price {
+  display: inline-block;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  text-align: left;
+}
+
+h3 {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#productType {
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  text-align: left;
+}
+
+#input_container input {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  text-align: left;
+}
+
+#input_container label {
+  display: block;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
